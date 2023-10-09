@@ -1,6 +1,6 @@
 export default {
     head:[
-        ["link",{ rel: "icon", href: "8.svg" }],
+        ["link",{ rel: "icon", href: "logo.svg" }],
     ],
     ignoreDeadLinks: true,
     title: 'SAW', // 博客的标题

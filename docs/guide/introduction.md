@@ -7,7 +7,7 @@ SAW媒体服务器与[Gstreamer](https://gstreamer.freedesktop.org/)， [FFmpeg]
 SAW支持将RTP协议和WHIP或WHEP的转换。
 ## 特性
 ### 支持WHIP/WHEP
-![WHIP和WHEP的原理](/SAW.svg)
+![WHIP和WHEP的原理](/saw.svg)
 WHIP[]()/WHEP[]()协议的实现是为了提高与其他WebRTC应用模块的互操作性，而无需自定义调整。
 ### SFU架构
 本服务器是一款基于SFU架构的中心节点媒体服务器，只负责转发，不做合流、转码等资源开销较大的媒体处理工作，将编码解码等工作分别放在发送端和接收端，因此大大降低了服务器的压力，放宽了对服务器配置的严格要求。   
